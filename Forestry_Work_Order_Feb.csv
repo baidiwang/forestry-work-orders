@@ -1,0 +1,26 @@
+CreatedDate,(All),,,,,
+,,,,,,
+Count of WOCategory,Column Labels,,,,,
+Row Labels,Bronx,Brooklyn,Manhattan,Queens,Staten Island,Grand Total
+Block Pruning,1182,601,,4377,680,6840
+Canopy Reduction,1,,,3,2,6
+Hanging Limb,22,24,31,65,14,156
+Limb Down,8,53,7,68,17,153
+Misc Wood,3,15,,3,13,34
+Misc Work,6,6,,1,4,17
+Pest & Disease Treatment,1,,,7,,8
+Prune-Traffic 10 Day,,,,1,,1
+Prune-Traffic 20 Day,,,,,2,2
+Pruning,71,85,995,97,30,1278
+Rescue/Preservation - Tree,,3,11,4,7,25
+Root Pruning,,1,,,,1
+Stump Removal,59,306,171,183,94,813
+Stump Removal for Tree Planting,5,,30,17,,52
+Tree and Sidewalk Repair,,,,,9,9
+Tree Down,6,21,6,36,9,78
+Tree Plant-Park Tree,74,1,55,125,,255
+Tree Plant-Street Tree,4,347,271,56,17,696
+Tree Plant-Street Tree Block,2,,6,208,,216
+Tree Removal,83,230,113,342,116,885
+Tree Removal for Tree Planting,4,3,2,2,,11
+Grand Total,1531,1696,1698,5595,1014,11536
