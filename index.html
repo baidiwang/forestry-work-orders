@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>What we found from forestry work orders in NYC</title>
+    <meta name="author" content="Baidi Wang" />
+
+    <meta name="description"
+      content="The NYC Million Trees program that launched in 2015 aiming to plant more trees for the city failed in 2020 because of the limited budget and the decline of street trees. So what is the current condition of trees in NYC?" />
+
+    <!-- Meta: Images -->
+    <link rel="image_src" href="./assets/promo.png" />
+    <meta property="og:image" content="./assets/promo.png" />
+    <meta name="twitter:image:src" content="./assets/promo.png" />
+    <meta name="promoimage" content="./assets/promo.png" />
+
+    <!-- Meta: Title -->
+    <meta name="title" content="What we found from forestry work orders in NYC" />
+    <meta property="og:title" content="What we found from forestry work orders in NYC" />
+    <meta name="twitter:title" content="What we found from forestry work orders in NYC" />
+
+    <!-- Meta: Description -->
+    <meta name="description"
+      content="The NYC Million Trees program that launched in 2015 aiming to plant more trees for the city failed in 2020 because of the limited budget and the decline of street trees. So what is the current condition of trees in NYC?" />
+    <meta property="og:description"
+      content="The NYC Million Trees program that launched in 2015 aiming to plant more trees for the city failed in 2020 because of the limited budget and the decline of street trees. So what is the current condition of trees in NYC?" />
+    <meta name="twitter:description"
+      content="The NYC Million Trees program that launched in 2015 aiming to plant more trees for the city failed in 2020 because of the limited budget and the decline of street trees. So what is the current condition of trees in NYC?" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Roboto+Slab:700|Roboto:400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <header class="article-header">
+        <h1 class="article-header__hed">
+          What we found from forestry work orders in NYC
+        </h1>
+        <div class="article-header__dek">
+          The NYC Million Trees program that launched in 2015 aiming to plant more trees for the city failed in 2020 because of the limited budget and the decline of street trees. So what is the current condition of trees in NYC?
+        </div>
+        <div class="article-header__leadart">
+          <img class="article-header__leadart__img" src="image/tree.jpg" />
+        </div>
+
+      </header>
+      <article>
+        <p class="g-copy">
+          My project is about forestry work orders in NYC five boroughs in last month. I want to show the difference between total work orders as well as different order categories in five boroughs.
+        </p>
+        <p class="g-copy">
+          I downloaded the original data from <a href=" https://data.cityofnewyork.us/Environment/Forestry-Work-Orders/bdjm-n7q4/data">NYC Open Data</a> including all different forestry work orders in NYC in the past few years. Here is my <a
+            href=" https://docs.google.com/spreadsheets/d/1lspKMYK5dSkuQqexqnYgG47n7JhuG3WDFy_JSekgi8g/edit?usp=sharing">google sheet</a>.
+        </p>
+
+        <div class="g-chart">
+          <iframe title="Total Forestry Work Orders in five boroughs in Feburary" aria-label="Stacked Bars" id="datawrapper-chart-TIsHz" src="//datawrapper.dwcdn.net/TIsHz/4/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="250"></iframe>
+          <script type="text/javascript">
+            ! function() {
+              "use strict";
+              window.addEventListener("message", function(a) {
+                if (void 0 !== a.data["datawrapper-height"])
+                  for (var e in a.data["datawrapper-height"]) {
+                    var t = document.getElementById("datawrapper-chart-" + e) || document.querySelector("iframe[src*='" + e + "']");
+                    t && (t.style.height = a.data["datawrapper-height"][e] + "px")
+                  }
+              })
+            }();
+          </script>
+        </div>
+
+        <p class="g-copy">
+          After making a pivot table from my data and creating two charts for them, I find something interesting. The first finding is from the chart of total forestry work orders in five boroughs. It is obviously that Queens had the most forestry
+          work orders among five boroughs. I searched NYC Trees Census, and found Queens has the most trees compared with other boroughs. So that may be the reason explaining why Queens is the top borough having the most forestry work orders.
+        </p>
+
+        <div class="g-chart">
+          <iframe title="Forestry Work Orders of five boroughs in February" aria-label="Election Donut" id="datawrapper-chart-vgsim" src="//datawrapper.dwcdn.net/vgsim/3/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe>
+          <script type="text/javascript">
+            ! function() {
+              "use strict";
+              window.addEventListener("message", function(a) {
+                if (void 0 !== a.data["datawrapper-height"])
+                  for (var e in a.data["datawrapper-height"]) {
+                    var t = document.getElementById("datawrapper-chart-" + e) || document.querySelector("iframe[src*='" + e + "']");
+                    t && (t.style.height = a.data["datawrapper-height"][e] + "px")
+                  }
+              })
+            }();
+          </script>
+        </div>
+
+        <p class="g-copy">
+          The second thing I found is also interesting. Except Manhattan, block pruning, one of the forestry work orders, was always the largest part of all orders in other boroughs. In Queens, block pruning orders even reached 4,377 in February.
+          Though block pruning was not the number one work order in Manhattan, the work order of pruning took the largest proportion of all orders. So, I find forestry work order of pruning, especially block pruning, worth much more attention in
+          the
+          future.
+        </p>
+      </article>
+    </main>
+  </body>
+
+</html>
